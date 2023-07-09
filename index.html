@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Counter Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="container">
+      <h1>Counter: <span id="count">0</span></h1>
+      <div class="button-container">
+        <button onclick="decrement()">-</button>
+        <button onclick="increment()">+</button>
+        <button onclick="save()">Save</button>
+        <button onclick="reset()">Reset</button>
+      </div>
+      <ul id="saved-counts"></ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
